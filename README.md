@@ -14,7 +14,7 @@ A Tiny 4 Layer ATSAMD21E18A Development Board
 
 ### _So light that it flies._
 
-<img src="./Gallery/ElfinZine.png"
+<img src="./Gallery/render2.png">
 
 </div>
 
