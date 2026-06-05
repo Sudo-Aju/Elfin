@@ -14,7 +14,7 @@ A Tiny 4 Layer ATSAMD21E18A Development Board
 
 ### _So light that it flies._
 
-<img src="./Gallery/render2.png">
+<img src="./Gallery/ElfinZine.png">
 
 </div>
 
@@ -33,3 +33,16 @@ Despite measuring only **22.2mm x 15.5mm**, Elfin packs everything required for 
 - Fully Exposed GPIO
 - 4-Layer PCB Design
 
+Built for projects where every millimeter matters.
+
+---
+
+# Gallery
+
+<div align="center">
+
+<img src="/Gallery/render1">
+<img src="/Gallery/render2">
+<img src="/Gallery/render3">
+<img src="/Gallery/render4">
+<img src="/Gallery/render5">
