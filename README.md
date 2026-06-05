@@ -13,10 +13,10 @@ A Tiny 4 Layer ATSAMD21E18A Development Board
 </p>
 
 ### _So light that it flies._
-
+<div align="left">
 <img src="./Gallery/render1.png">
-<img src="./Gallery/render4.png">
-
+<img src="./Gallery/render4.png" width="950">
+</div>
 </div>
 
 ---
