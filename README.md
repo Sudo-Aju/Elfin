@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# <img src="./Gallery/ElfinLogo.png" alt="elfinlogo" width="100%" />
+# <img src="./Gallery/ElfinLogo.png" alt="elfinlogo" width="200" />
 
 A Tiny 4 Layer ATSAMD21E18A Development Board 
 
