@@ -46,6 +46,8 @@ Built for projects where every millimeter matters.
 <img src="./Gallery/render4.png">
 <img src="./Gallery/render5.png">
 
+</div>
+
 ---
 
 # Zine
