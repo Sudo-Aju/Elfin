@@ -41,8 +41,8 @@ Built for projects where every millimeter matters.
 
 <div align="center">
 
-<img src="./Gallery/render1">
-<img src="./Gallery/render2">
-<img src="./Gallery/render3">
-<img src="./Gallery/render4">
-<img src="./Gallery/render5">
+<img src="./Gallery/render1.png">
+<img src="./Gallery/render2.png">
+<img src="./Gallery/render3.png">
+<img src="./Gallery/render4.png">
+<img src="./Gallery/render5.png">
