@@ -14,7 +14,7 @@ A Tiny 4 Layer ATSAMD21E18A Development Board
 
 ### _So light that it flies._
 
-<img src="./Gallery/ElfinZine.png">
+<img src="./Gallery/render1.png">
 
 </div>
 
@@ -41,8 +41,69 @@ Built for projects where every millimeter matters.
 
 <div align="center">
 
-<img src="./Gallery/render1.png">
 <img src="./Gallery/render2.png">
 <img src="./Gallery/render3.png">
 <img src="./Gallery/render4.png">
 <img src="./Gallery/render5.png">
+
+---
+
+# Zine
+
+<div align="center">
+<img src="./Gallery/ElfinZine.png" width="100%">
+</div>
+
+---
+
+# Motivation
+
+Most development boards are designed around convenience.
+
+Elfin was designed around minimalism.
+
+The goal was simple:
+
+> How small can a fully featured ATSAMD21 development board become?
+
+The project explored compact embedded hardware design while maintaining usability, manufacutrability, and flexibility.
+
+Inspired by:
+- Tiny embedded systems
+- Wearable electronics
+- Open-source hardware
+- Hack Club hardware projects
+- Minimalist engineering
+
+The result is a board that feels compact in size while remaining practical for real-world development. (Not the smallest tho 🤓)
+
+---
+
+# Features
+
+- **ATSAMD21E18 MCU**
+- **USB Type-C**
+- **2MB External Flash**
+- **32.768kHz Crystal Oscillator**
+- **4-Layer PCB**
+- **Breadboard Friendly**
+- **SWD Programming Support**
+- **Fully Exposed GPIO**
+- **Open Source Hardware**
+- **Ultra Compact Design (22.2mm x 15.5mm)**
+
+---
+
+# Hardware Stack
+
+|||
+|-------------------|--------------|
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+
