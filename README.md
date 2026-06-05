@@ -15,6 +15,7 @@ A Tiny 4 Layer ATSAMD21E18A Development Board
 ### _So light that it flies._
 
 <img src="./Gallery/render1.png">
+<img src="./Gallery/render4.png">
 
 </div>
 
@@ -43,7 +44,6 @@ Built for projects where every millimeter matters.
 
 <img src="./Gallery/render2.png">
 <img src="./Gallery/render3.png">
-<img src="./Gallery/render4.png">
 <img src="./Gallery/render5.png">
 
 </div>
