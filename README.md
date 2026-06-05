@@ -147,10 +147,10 @@ It has
 - Optimized 4-layer routing
 
 ## PCB
-<img src="./Gallery/sch.png">
+<img src="./Gallery/pcb.png">
 
 ## Schematic
-<img src="./Gallery/pcb.png">
+<img src="./Gallery/sch.png">
 
 ---
 
