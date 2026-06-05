@@ -156,3 +156,155 @@ It has
 
 # Assemble Guide
 
+## 1. Order the PCB
+
+Navigate to:
+
+```bash
+./PCB/ElfinGerber.zip
+```
+
+Upload the Gerber files to your preferred PCB manufacturer.
+
+---
+
+## 2. Order Components
+
+All required components can be found in:
+
+```bash
+./PCB/ElfinBOM.csv
+```
+
+---
+
+## 3. Solder the Components
+
+Recommended tools:
+
+- Flux
+- Fine-tip Soldering iron
+- Tweezers
+- Hot air station
+
+Assembly order:
+
+1. Passive components
+2. Crystal oscillator
+3. Flash memory
+4. Voltage regulator
+5. ATSAMD21E18
+6. USB Type-C connector
+
+---
+
+## 4. Inspect the Board
+
+Before powering:
+- Check for shorts
+- Verify USB connections
+- Inspect power rails
+- Confirm crystal orientation
+
+---
+
+## 5. Program the Bootloader
+
+Using an SWD programmer:
+- Connect SWDIO
+- Connect SWCLk
+- Connect GND
+- Flash teh UF2 bootloader
+
+---
+
+## 6. Upload the Firmware
+
+Once the bootloader is installed:
+- Connect USB Type-C
+- Enter bootloader mode
+- Drag and drop the firmware
+
+---
+
+# Applications
+
+Elfin is perfect for:
+
+- Wearables
+- USB Devices
+- Sensor Nodes
+- Robotics
+- IoT Projects
+- Custom Controllers
+- Educational Projects
+- Compact Embedded Systems
+
+---
+
+# Repository Structure
+
+```bash
+Elfin/
+├── PCB/
+├── CAD/
+├── Firmware/
+├── Assets/
+└── README.md
+```
+
+---
+
+# Current Status
+
+- [X] Initial Concept
+- [X] Schematic Design
+- [X] PCB Design
+- [ ] Final Build
+- [ ] Community Testing  
+
+---
+
+# Contributing
+
+Contributions, suggestions, and feedback are welcome.
+
+If you'd like to improve Elfin:
+
+```bash
+git clone https://github.com/Sudo-Aju/Elfin.git
+cd Elfin
+```
+
+1. Create a feature branch
+2. Make your changes
+3. Commit your work
+4. Open a pull request
+
+---
+
+# Creator
+
+### Azmeer Pirani
+
+Built with ❤️ for:
+- Embedded Systems
+- PCB Design
+- Open Source Hardware
+- Tiny Things
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+## ELFIN
+
+### _So light that it flies_
+
+</div>
