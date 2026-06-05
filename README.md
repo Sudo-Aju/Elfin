@@ -116,23 +116,23 @@ The result is a board that feels compact in size while remaining practical for r
 
 # BOM
 
-|No.|Quantity|Comment                    |Designator |Footprint                                            |Value                      |Manufacturer Part|Manufacturer   |Supplier Part|Supplier|LCSC Price|
-|---|--------|---------------------------|-----------|-----------------------------------------------------|---------------------------|-----------------|---------------|-------------|--------|----------|
-|1  |4       |100nF                      |C1,C3,C6,C7|C0402                                                |100nF                      |                 |               |             |        |0.6342    |
-|2  |3       |1uF                        |C2,C4,C5   |C0402                                                |1uF                        |CL05A105KA5NQNC  |SAMSUNG(三星)    |C52923       |LCSC    |          |
-|3  |2       |10uF                       |C8,C9      |C0402                                                |10uF                       |                 |               |             |        |0.6342    |
-|4  |1       |USBLC6-2SC6                |D1         |SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR                    |                           |USBLC6-2SC6      |ST(意法半导体)      |C7519        |LCSC    |          |
-|5  |2       |castellated_holes_1x7      |H1,H2      |Carl Bugeja's Library.IntLib:castellated holes       |castellated holes          |                 |               |             |        |0.6342    |
-|6  |1       |USB_C_Receptacle_USB2.0_16P|J1         |Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A|USB_C_Receptacle_USB2.0_16P|                 |               |             |        |0.6342    |
-|7  |1       |2.2uH                      |L1         |IND-SMD_L4.0-W4.0_XAL4030-332MEC                     |2.2uH                      |SMNR4020-2.2UH   |SXN(顺翔诺)       |C135262      |LCSC    |          |
-|8  |3       |10K                        |R1,R2,R3   |R0402                                                |10K                        |                 |               |             |        |0.6342    |
-|9  |2       |5.1K                       |R4,R5      |R0402                                                |5.1K                       |                 |               |             |        |0.6342    |
-|10 |1       |36.5K                      |R6         |R0402                                                |36.5K                      |                 |               |             |        |0.6342    |
-|11 |1       |EVPAWCD40                  |SW1        |KEY-SMD_L3.0-W2.0-LS3.5                              |                           |EVPAWCD40        |PANASONIC(松下)  |C2858606     |LCSC    |          |
-|12 |1       |ATSAMD21E18A-MUT           |U1         |QFN-32_L5.0-W5.0-P0.50-TL-EP3.6                      |                           |ATSAMD21E18A-MUT |MICROCHIP(美国微芯)|C2052801     |LCSC    |          |
-|13 |1       |W25Q16JVUXIQ               |U2         |USON-8_L3.0-W2.0-P0.50-BL-EP                         |                           |W25Q16JVUXIQ     |Winbond(华邦)    |C2843335     |LCSC    |          |
-|14 |1       |TPS63900DSKR               |U3         |WSON-10_L2.5-W2.5-W0.50-TL-EP                        |                           |TPS63900DSKR     |TI(德州仪器)       |C1518762     |LCSC    |          |
-|15 |1       |32.768KHz                  |X1         |OSC-SMD_L3.2-W1.5                                    |                           |32.768KHz        |               |C9900004736  |LCSC    |          |
+|No.|Quantity|Comment                    |Designator |Footprint                                            |Value                      |Manufacturer Part|Manufacturer   |Supplier Part|Supplier          |Link                                                |
+|---|--------|---------------------------|-----------|-----------------------------------------------------|---------------------------|-----------------|---------------|-------------|------------------|----------------------------------------------------|
+|1  |4       |100nF                      |C1,C3,C6,C7|C0402                                                |100nF                      |CL05B104KB5NNNC  |SAMSUNG(三星)    |C1525        |LCSC              |https://www.lcsc.com/product-detail/C1525.html      |
+|2  |3       |1uF                        |C2,C4,C5   |C0402                                                |1uF                        |CL05A105KA5NQNC  |SAMSUNG(三星)    |C52923       |LCSC              |https://www.lcsc.com/product-detail/C52923.html     |
+|3  |2       |10uF                       |C8,C9      |C0402                                                |10uF                       |CL05A106MP5NUNC  |SAMSUNG(三星)    |C15525       |LCSC              |https://www.lcsc.com/product-detail/C15525.html     |
+|4  |1       |USBLC6-2SC6                |D1         |SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR                    |USBLC6-2SC6                |USBLC6-2SC6      |ST(意法半导体)      |C7519        |LCSC              |https://www.lcsc.com/product-detail/C7519.html      |
+|5  |2       |castellated_holes_1x7      |H1,H2      |Carl Bugeja's Library.IntLib:castellated holes       |castellated holes          |N/A              |N/A            |N/A          |Custom PCB Feature|N/A                                                 |
+|6  |1       |USB_C_Receptacle_USB2.0_16P|J1         |Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A|USB_C_Receptacle_USB2.0_16P|HC-TYPE-C-16P-01A|HCTL           |C2894897     |LCSC              |https://www.lcsc.com/product-detail/C2894897.html   |
+|7  |1       |2.2uH                      |L1         |IND-SMD_L4.0-W4.0_XAL4030-332MEC                     |2.2uH                      |SMNR4020-2.2UH   |SXN(顺翔诺)       |C135262      |LCSC              |https://www.lcsc.com/product-detail/C135262.html    |
+|8  |3       |10K                        |R1,R2,R3   |R0402                                                |10K                        |RC0402FR-0710KL  |YAGEO          |C25744       |LCSC              |https://www.lcsc.com/product-detail/C25744.html     |
+|9  |2       |5.1K                       |R4,R5      |R0402                                                |5.1K                       |RC0402FR-075K1L  |YAGEO          |C25905       |LCSC              |https://www.lcsc.com/product-detail/C25905.html     |
+|10 |1       |36.5K                      |R6         |R0402                                                |36.5K                      |RC0402FR-0736K5L |YAGEO          |C25793       |LCSC              |https://www.lcsc.com/product-detail/C25793.html     |
+|11 |1       |EVPAWCD40                  |SW1        |KEY-SMD_L3.0-W2.0-LS3.5                              |EVPAWCD40                  |EVPAWCD40        |PANASONIC(松下)  |C2858606     |LCSC              |https://www.lcsc.com/product-detail/C2858606.html   |
+|12 |1       |ATSAMD21E18A-MUT           |U1         |QFN-32_L5.0-W5.0-P0.50-TL-EP3.6                      |ATSAMD21E18A-MUT           |ATSAMD21E18A-MUT |MICROCHIP(美国微芯)|C2052801     |LCSC              |https://www.lcsc.com/product-detail/C2052801.html   |
+|13 |1       |W25Q16JVUXIQ               |U2         |USON-8_L3.0-W2.0-P0.50-BL-EP                         |W25Q16JVUXIQ               |W25Q16JVUXIQ     |Winbond(华邦)    |C2843335     |LCSC              |https://www.lcsc.com/product-detail/C2843335.html   |
+|14 |1       |TPS63900DSKR               |U3         |WSON-10_L2.5-W2.5-W0.50-TL-EP                        |TPS63900DSKR               |TPS63900DSKR     |TI(德州仪器)       |C1518762     |LCSC              |https://www.lcsc.com/product-detail/C1518762.html   |
+|15 |1       |32.768KHz                  |X1         |OSC-SMD_L3.2-W1.5                                    |32.768KHz                  |ABS07-32.768KHZ-T|Abracon        |C9900004736  |LCSC              |https://www.lcsc.com/product-detail/C9900004736.html|
 
 ---
 
