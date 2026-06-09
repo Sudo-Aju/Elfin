@@ -30,7 +30,7 @@ Despite measuring only **22.2mm x 15.5mm**, Elfin packs everything required for 
 - ATSAMD21E18 Microcontroller
 - USB Type-C Connectivity
 - 2MB External Flash
-- 32.768kHz Crystal Oscillator
+- 32.768kHz Crystal Oscillator + Internal clocks like: DFLL48M (48 MHz Booster)
 - Fully Exposed GPIO
 - 4-Layer PCB Design
 
