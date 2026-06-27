@@ -13,28 +13,33 @@ A Tiny 4 Layer ATSAMD21E18A Development Board
 </p>
 
 ### _So light that it flies._
-<div align="left">
-<img src="./Gallery/render1.png" width="100%">
-<img src="./Gallery/render4.png" width="100%">
-</div>
+
+<p align="center">
+  
+  <img src="./Gallery/render1.png" width="49%">
+  <img src="./Gallery/render4.png" width="45%">
+  
+</p>
 </div>
 
 ---
 
 # Overview
 
-**Elfin** is an ultra-compact ATSAMD21E18 development board desgined for makers, students, and embedded developers who need a decent microcontroller in smalled possible footprint.
+**Elfin** is an ultra-compact development board built around the **ATSAMD21E18A**, designed for embedded developers, makers, and educators who require a capable microcontroller in an exceptionally small footprint.
 
-Despite measuring only **22.2mm x 15.5mm**, Elfin packs everything required for rapid prototyping:
+Measuring just **22.3 × 15.5 mm**, Elfin integrates the essential hardware required for rapid prototyping while maintaining a layout suitable for manufacturing, debugging, and long-term embedded deployment.
 
-- ATSAMD21E18 Microcontroller
-- USB Type-C Connectivity
-- 2MB External Flash
-- 32.768kHz Crystal Oscillator + Internal clocks like: DFLL48M (48 MHz Booster)
+Key hardware includes:
+
+- ATSAMD21E18A ARM Cortex-M0+ Microcontroller
+- Native USB Type-C Connectivity
+- 2 MB External SPI Flash
+- 32.768 kHz RTC Crystal Oscillator
 - Fully Exposed GPIO
-- 4-Layer PCB Design
+- Optimized Four-Layer PCB
 
-Built for projects where every millimeter matters.
+The board is intended for applications where board area is limited without compromising functionality or expandability.
 
 ---
 
@@ -83,16 +88,16 @@ The result is a board that feels compact in size while remaining practical for r
 
 # Features
 
-- **ATSAMD21E18 MCU**
-- **USB Type-C**
-- **2MB External Flash**
-- **32.768kHz Crystal Oscillator**
-- **4-Layer PCB**
-- **Breadboard Friendly**
-- **SWD Programming Support**
-- **Fully Exposed GPIO**
-- **Open Source Hardware**
-- **Ultra Compact Design (22.2mm x 15.5mm)**
+- ATSAMD21E18A ARM Cortex-M0+ MCU
+- Native USB Type-C Interface
+- 2 MB External SPI Flash Memory
+- Dedicated 32.768 kHz RTC Crystal
+- Four-Layer High-Density PCB
+- SWD Programming & Debugging
+- Fully Exposed GPIO
+- Breadboard Compatible Layout
+- Open-Source Hardware Design
+- Compact 22.3 × 15.5 mm Form Factor
 
 ---
 
@@ -138,14 +143,19 @@ The result is a board that feels compact in size while remaining practical for r
 
 # PCB Design
 
-The PCB was designed with one objective:
+The PCB layout was designed around maximizing routing efficiency within an extremely constrained footprint while preserving signal integrity, manufacturability, and accessibility.
 
-> Maximum functionality in minimum space.
+A four-layer stack-up was selected to improve routing density, provide continuous ground and power planes, and simplify high-speed USB and power distribution.
 
-It has
-- SWD debugging interface
-- Optimized 4-layer routing
+Key design considerations included:
 
+- High-density component placement
+- Optimized USB routing
+- Continuous ground return paths
+- Efficient power distribution
+- SWD debugging accessibility
+- Compact mechanical footprint
+  
 ## PCB
 <img src="./Gallery/pcb.png">
 
@@ -180,21 +190,16 @@ All required components can be found in:
 
 ## 3. Solder the Components
 
-Recommended tools:
+Recommended assembly should follow a low-profile to high-profile sequence to simplify alignment and reduce rework.
 
-- Flux
-- Fine-tip Soldering iron
-- Tweezers
-- Hot air station
-
-Assembly order:
+Suggested order:
 
 1. Passive components
 2. Crystal oscillator
-3. Flash memory
-4. Voltage regulator
-5. ATSAMD21E18
-6. USB Type-C connector
+3. SPI Flash
+4. Buck-Boost Converter
+5. ATSAMD21E18A
+6. USB Type-C Connector
 
 ---
 
@@ -260,8 +265,10 @@ Elfin/
 - [X] Initial Concept
 - [X] Schematic Design
 - [X] PCB Design
-- [ ] Final Build
-- [ ] Community Testing  
+- [X] Hardware Validation
+- [ ] Firmware Bring-up
+- [ ] Functional Testing
+- [ ] Community Evaluation 
 
 ---
 
