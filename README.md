@@ -1,51 +1,45 @@
 <div align="center">
 
 
-# <img src="./Gallery/ZhiFuBaoLogo.png" alt="zhifubaologo" width="200" />
+# <img src="./Gallery/ElfinLogo.png" alt="elfinlogo" width="200" />
 
-An Autonomous Payment Assistant Robot
+A Tiny 4 Layer ATSAMD21E18A Development Board 
 
 <p>
-<img src="https://img.shields.io/badge/Status-Prototype-00C853?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Design%20Ready-00C853?style=for-the-badge">
 <img src="https://img.shields.io/badge/Open%20Source-Yes-1E88E5?style=for-the-badge">
-<img src="https://img.shields.io/badge/Controller-XIAO%20RP2040-FF6D00?style=for-the-badge">
-<img src="https://img.shields.io/badge/Drive-DRV8833-8A2BE2?style=for-the-badge">
+<img src="https://img.shields.io/badge/MCU-ATSAMD21E18-FF6D00?style=for-the-badge">
+<img src="https://img.shields.io/badge/Size-22.3mm%20x%2015.5mm-8A2BE2?style=for-the-badge">
 </p>
 
-### _Your personal shopping assistant._
+### _So light that it flies._
 
 <p align="center">
   
   <img src="./Gallery/render1.png" width="49%">
-  <img src="./Gallery/render2.png" width="45%">
+  <img src="./Gallery/render4.png" width="45%">
   
 </p>
-
 </div>
 
 ---
 
 # Overview
 
-**Zhi Fu Bao (支付宝)** is an autonomous customer-assistance robot designed to improve shopping experiences by combining mobile robotics, facial recognition, and digital payment systems.
+**Elfin** is an ultra-compact development board built around the **ATSAMD21E18A**, designed for embedded developers, makers, and educators who require a capable microcontroller in an exceptionally small footprint.
 
-The robot follows customers around a store, recognizes them using facial recognition, and provides a personalized experience by calling customers by their name.
-
-After customers complete their shopping, Zhi Fu Bao displays their **Alipay QR payment code**, allowing them to complete transactions quickly without waiting at traditional checkout counters.
-
-The robot is built on a wheeled platform with obstacle avoidance capabilities, allowing it to navigate indoor environments while safely following customers.
+Measuring just **22.3 × 15.5 mm**, Elfin integrates the essential hardware required for rapid prototyping while maintaining a layout suitable for manufacturing, debugging, and long-term embedded deployment.
 
 Key hardware includes:
 
-- Seeed Studio XIAO RP2040 Microcontroller
-- DRV8833 Motor Driver
-- LM2596 Buck Converter
-- 7.9V Series Battery Pack
-- Ultrasonic Sensors
-- Camera Module for Facial Recognition
-- Display Module for QR Payment
+- ATSAMD21E18A ARM Cortex-M0+ Microcontroller
+- Native USB Type-C Connectivity
+- 2 MB External SPI Flash
+- 32.768 kHz RTC Crystal Oscillator
+- Fully Exposed GPIO
+- Optimized Four-Layer PCB
 
-The project explores autonomous navigation, embedded systems, human-computer interaction, and smart retail automation.
+The board is intended for applications where board area is limited without compromising functionality or expandability.
 
 ---
 
@@ -53,8 +47,8 @@ The project explores autonomous navigation, embedded systems, human-computer int
 
 <div align="center">
 
+<img src="./Gallery/render2.png">
 <img src="./Gallery/render3.png">
-<img src="./Gallery/render4.png">
 <img src="./Gallery/render5.png">
 
 </div>
@@ -64,51 +58,46 @@ The project explores autonomous navigation, embedded systems, human-computer int
 # Zine
 
 <div align="center">
-
-<img src="./Gallery/ZhiFuBaoZine.png" width="100%">
-
+<img src="./Gallery/ElfinZine.png" width="100%">
 </div>
 
 ---
 
 # Motivation
 
-Traditional shopping experiences often require customers to wait in queues and manually complete payment processes.
+Most development boards are designed around convenience.
 
-Zhi Fu Bao was designed around a simple idea:
+Elfin was designed around minimalism.
 
-> How can robotics make everyday shopping faster and more interactive?
+The goal was simple:
 
-The goal was to create a mobile assistant capable of:
+> How small can a fully featured ATSAMD21 development board become?
 
-- Following customers autonomously
-- Providing personalized interaction
-- Reducing checkout time
-- Combining robotics with digital payment systems
+The project explored compact embedded hardware design while maintaining usability, manufacutrability, and flexibility.
 
 Inspired by:
+- Tiny embedded systems
+- Wearable electronics
+- Open-source hardware
+- Hack Club hardware projects
+- Minimalist engineering
 
-- Autonomous robots
-- Smart retail systems
-- Embedded electronics
-- Human-machine interaction
-- Modern payment technology
-
-The result is a robotic assistant that combines mobility, recognition, and payment into a single platform.
+The result is a board that feels compact in size while remaining practical for real-world development. (Not the smallest tho 🤓)
 
 ---
 
 # Features
 
-- Autonomous customer following
-- Facial recognition system
-- Personalized customer greetings
-- Obstacle avoidance
-- QR payment display system
-- Wheeled robotic platform
-- Wireless embedded control
-- Compact electronics integration
-- 3D designed mechanical structure
+- ATSAMD21E18A ARM Cortex-M0+ MCU
+- Native USB Type-C Interface
+- 2 MB External SPI Flash Memory
+- Dedicated 32.768 kHz RTC Crystal
+- Four-Layer High-Density PCB
+- SWD Programming & Debugging
+- Fully Exposed GPIO
+- Breadboard Compatible Layout
+- Open-Source Hardware Design
+- Compact 22.3 × 15.5 mm Form Factor
 
 ---
 
@@ -116,210 +105,156 @@ The result is a robotic assistant that combines mobility, recognition, and payme
 
 | Parameter | Value |
 |-------------------|--------------|
-| Controller | Seeed Studio XIAO RP2040 |
-| Motor Driver | DRV8833 |
-| Power Source | Series 1S Lithium Batteries |
-| Battery Output | 7.9V |
-| Voltage Regulation | LM2596 Buck Converter |
-| Sensors | Ultrasonic Sensors |
-| Recognition | Camera Module |
-| Movement | DC Motors |
-| Payment Interface | QR Code Display |
-| Communication | Embedded Control System |
+| MCU | ATSAMD21E18A |
+| Internal Flash | 256KB |
+|SRAM|32KB|
+|Crystal|32.768kHz RTC Crystal|
+|External Flash|2MB External SPI Flash|
+|USB|USB Type-C|
+|Operating Voltage|3.3V|
+|PCB|4 Layer PCB (```Signal, Ground, Power, Signal```) |
+|Programming|UF2 / SWD|
+|Power|USB Powered|
+|Dimensions|22.3mm x 15.5mm|
 
 ---
 
-# Electronics Architecture
+# BOM
 
-The robot is powered using a series battery configuration producing **7.9V**.
-
-The voltage is regulated using an **LM2596 buck converter**, providing a stable supply for the control electronics.
-
-```
-
-7.9V Battery Pack
-|
-v
-LM2596 Buck Converter
-|
-v
-XIAO RP2040
-|
-+----------------+
-|                |
-v                v
-DRV8833 Motor Driver   Sensors
-|
-v
-DC Motors
-
-```
+|No.|Quantity|Comment                    |Designator |Footprint                                            |Value                      |Manufacturer Part|Manufacturer   |Supplier Part|Supplier          |Link                                                |
+|---|--------|---------------------------|-----------|-----------------------------------------------------|---------------------------|-----------------|---------------|-------------|------------------|----------------------------------------------------|
+|1  |4       |100nF                      |C1,C3,C6,C7|C0402                                                |100nF                      |CL05B104KB5NNNC  |SAMSUNG(三星)    |C1525        |LCSC              |https://www.lcsc.com/product-detail/C1525.html      |
+|2  |3       |1uF                        |C2,C4,C5   |C0402                                                |1uF                        |CL05A105KA5NQNC  |SAMSUNG(三星)    |C52923       |LCSC              |https://www.lcsc.com/product-detail/C52923.html     |
+|3  |2       |10uF                       |C8,C9      |C0402                                                |10uF                       |CL05A106MP5NUNC  |SAMSUNG(三星)    |C15525       |LCSC              |https://www.lcsc.com/product-detail/C15525.html     |
+|4  |1       |USBLC6-2SC6                |D1         |SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR                    |USBLC6-2SC6                |USBLC6-2SC6      |ST(意法半导体)      |C7519        |LCSC              |https://www.lcsc.com/product-detail/C7519.html      |
+|5  |2       |castellated_holes_1x7      |H1,H2      |Carl Bugeja's Library.IntLib:castellated holes       |castellated holes          |N/A              |N/A            |N/A          |Custom PCB Feature|N/A                                                 |
+|6  |1       |USB_C_Receptacle_USB2.0_16P|J1         |Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A|USB_C_Receptacle_USB2.0_16P|HC-TYPE-C-16P-01A|HCTL           |C2894897     |LCSC              |https://www.lcsc.com/product-detail/C2894897.html   |
+|7  |1       |2.2uH                      |L1         |IND-SMD_L4.0-W4.0_XAL4030-332MEC                     |2.2uH                      |SMNR4020-2.2UH   |SXN(顺翔诺)       |C135262      |LCSC              |https://www.lcsc.com/product-detail/C135262.html    |
+|8  |3       |10K                        |R1,R2,R3   |R0402                                                |10K                        |RC0402FR-0710KL  |YAGEO          |C25744       |LCSC              |https://www.lcsc.com/product-detail/C25744.html     |
+|9  |2       |5.1K                       |R4,R5      |R0402                                                |5.1K                       |RC0402FR-075K1L  |YAGEO          |C25905       |LCSC              |https://www.lcsc.com/product-detail/C25905.html     |
+|10 |1       |36.5K                      |R6         |R0402                                                |36.5K                      |RC0402FR-0736K5L |YAGEO          |C25793       |LCSC              |https://www.lcsc.com/product-detail/C25793.html     |
+|11 |1       |EVPAWCD40                  |SW1        |KEY-SMD_L3.0-W2.0-LS3.5                              |EVPAWCD40                  |EVPAWCD40        |PANASONIC(松下)  |C2858606     |LCSC              |https://www.lcsc.com/product-detail/C2858606.html   |
+|12 |1       |ATSAMD21E18A-MUT           |U1         |QFN-32_L5.0-W5.0-P0.50-TL-EP3.6                      |ATSAMD21E18A-MUT           |ATSAMD21E18A-MUT |MICROCHIP(美国微芯)|C2052801     |LCSC              |https://www.lcsc.com/product-detail/C2052801.html   |
+|13 |1       |W25Q16JVUXIQ               |U2         |USON-8_L3.0-W2.0-P0.50-BL-EP                         |W25Q16JVUXIQ               |W25Q16JVUXIQ     |Winbond(华邦)    |C2843335     |LCSC              |https://www.lcsc.com/product-detail/C2843335.html   |
+|14 |1       |TPS63900DSKR               |U3         |WSON-10_L2.5-W2.5-W0.50-TL-EP                        |TPS63900DSKR               |TPS63900DSKR     |TI(德州仪器)       |C1518762     |LCSC              |https://www.lcsc.com/product-detail/C1518762.html   |
+|15 |1       |32.768KHz                  |X1         |OSC-SMD_L3.2-W1.5                                    |32.768KHz                  |ABS07-32.768KHZ-T|Abracon        |C9900004736  |LCSC              |https://www.lcsc.com/product-detail/Crystals_ABRACON-ABS07-32-768KHZ-T_C9002.html|
 
 ---
 
-# Component Overview
+# PCB Design
 
-| Component | Purpose |
-|-------------------|----------------|
-| 1S Lithium Batteries | Main power source |
-| LM2596 Buck Converter | Voltage regulation |
-| XIAO RP2040 | Main processing unit |
-| DRV8833 | Motor control |
-| Ultrasonic Sensors | Obstacle detection |
-| Camera Module | Facial recognition |
-| DC Motors | Wheel movement |
-| Display Module | Alipay QR display |
+The PCB layout was designed around maximizing routing efficiency within an extremely constrained footprint while preserving signal integrity, manufacturability, and accessibility.
 
----
+A four-layer stack-up was selected to improve routing density, provide continuous ground and power planes, and simplify high-speed USB and power distribution.
 
-# Wiring Diagram
+Key design considerations included:
 
-The electronics were connected using direct wiring based on the designed schematic.
-
-No PCB was manufactured for this project.
-
-The documentation includes:
-
-- Complete wiring schematic
-- Component connections
-- Power distribution
-- Motor control connections
+- High-density component placement
+- Optimized USB routing
+- Continuous ground return paths
+- Efficient power distribution
+- SWD debugging accessibility
+- Compact mechanical footprint
+  
+## PCB
+<img src="./Gallery/pcb.png">
 
 ## Schematic
-
-<img src="./Gallery/schematic.png">
-
----
-
-# Mechanical Design
-
-The robot body was designed using 3D modelling software.
-
-The design includes:
-
-- Wheeled chassis
-- Electronics mounting areas
-- Sensor placement
-- Display mounting
-- Battery compartment
-
-## CAD Models
-
-<img src="./Gallery/cad1.png">
-
-<img src="./Gallery/cad2.png">
-
----
-
-# Working Process
-
-```
-
-Customer Enters Store
-|
-v
-Facial Recognition
-|
-v
-Customer Identified
-|
-v
-Robot Greets Customer
-|
-v
-Robot Follows Customer
-|
-v
-Obstacle Detection
-|
-v
-Shopping Completed
-|
-v
-QR Payment Displayed
-|
-v
-Payment Completed
-
-````
+<img src="./Gallery/sch.png">
 
 ---
 
 # Assemble Guide
 
-## 1. Prepare Components
+## 1. Order the PCB
 
-Required components:
-
-```bash
-./Hardware/Components/
-````
-
----
-
-## 2. Assemble Mechanical Parts
-
-Build the robot structure using:
-
-* 3D printed components
-* Motor mounts
-* Sensor mounts
-* Electronics enclosure
-
----
-
-## 3. Connect Electronics
-
-Follow the wiring schematic:
+Navigate to:
 
 ```bash
-./Hardware/Schematic.png
+./PCB/ElfinGerber.zip
 ```
 
-Connections include:
-
-* Battery to LM2596
-* LM2596 to XIAO RP2040
-* XIAO RP2040 to DRV8833
-* DRV8833 to motors
-* Sensors to controller
+Upload the Gerber files to your preferred PCB manufacturer.
 
 ---
 
-## 4. Test Movement
+## 2. Order Components
 
-Before installing the final body:
+All required components can be found in:
 
-* Test motor direction
-* Verify sensor readings
-* Check voltage regulation
-* Validate controller communication
+```bash
+./PCB/ElfinBOM.csv
+```
+
+---
+
+## 3. Solder the Components
+
+Recommended assembly should follow a low-profile to high-profile sequence to simplify alignment and reduce rework.
+
+Suggested order:
+
+1. Passive components
+2. Crystal oscillator
+3. SPI Flash
+4. Buck-Boost Converter
+5. ATSAMD21E18A
+6. USB Type-C Connector
+
+---
+
+## 4. Inspect the Board
+
+Before powering:
+- Check for shorts
+- Verify USB connections
+- Inspect power rails
+- Confirm crystal orientation
+
+---
+
+## 5. Program the Bootloader
+
+Using an SWD programmer:
+- Connect SWDIO
+- Connect SWCLk
+- Connect GND
+- Flash teh UF2 bootloader
+
+---
+
+## 6. Upload the Firmware
+
+Once the bootloader is installed:
+- Connect USB Type-C
+- Enter bootloader mode
+- Drag and drop the firmware
 
 ---
 
 # Applications
 
-Zhi Fu Bao can be adapted for:
+Elfin is perfect for:
 
-* Smart retail stores
-* Customer assistance systems
-* Autonomous delivery
-* Indoor navigation
-* Interactive robots
-* Educational robotics
+- Wearables
+- USB Devices
+- Sensor Nodes
+- Robotics
+- IoT Projects
+- Custom Controllers
+- Educational Projects
+- Compact Embedded Systems
 
 ---
 
 # Repository Structure
 
 ```bash
-ZhiFuBao/
-├── Hardware/
-│   ├── Schematic/
-│   └── Components/
+Elfin/
+├── PCB/
 ├── CAD/
 ├── Firmware/
-├── Gallery/
+├── Assets/
 └── README.md
 ```
 
@@ -327,13 +262,13 @@ ZhiFuBao/
 
 # Current Status
 
-* [x] Concept Design
-* [x] 3D Model Development
-* [x] Electronics Planning
-* [x] Wiring Design
-* [ ] Autonomous Navigation Testing
-* [ ] Facial Recognition Integration
-* [ ] Final Prototype Validation
+- [X] Initial Concept
+- [X] Schematic Design
+- [X] PCB Design
+- [X] Hardware Validation
+- [ ] Firmware Bring-up
+- [ ] Functional Testing
+- [ ] Community Evaluation 
 
 ---
 
@@ -341,34 +276,29 @@ ZhiFuBao/
 
 Contributions, suggestions, and feedback are welcome.
 
-If you would like to improve Zhi Fu Bao:
+If you'd like to improve Elfin:
 
 ```bash
-git clone https://github.com/Sudo-Aju/ZhiFuBao.git
-cd ZhiFuBao
+git clone https://github.com/Sudo-Aju/Elfin.git
+cd Elfin
 ```
 
 1. Create a feature branch
-2. Improve the project
-3. Commit changes
+2. Make your changes
+3. Commit your work
 4. Open a pull request
 
 ---
 
-# Creators
+# Creator
 
 ### Azmeer Pirani
 
-### Keyaan
-
-### Anirudh
-
 Built with ❤️ for:
-
-* Robotics
-* Embedded Systems
-* Autonomous Machines
-* Smart Retail Technology
+- Embedded Systems
+- PCB Design
+- Open Source Hardware
+- Tiny Things
 
 ---
 
@@ -380,9 +310,8 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-## ZHI FU BAO
+## ELFIN
 
-### *Your personal shopping assistant.*
+### _So light that it flies_
 
 </div>
-```
